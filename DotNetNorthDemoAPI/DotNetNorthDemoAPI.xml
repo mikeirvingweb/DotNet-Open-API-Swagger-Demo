@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetNorthDemoAPI</name>
+    </assembly>
+    <members>
+        <member name="T:DotNetNorthDemoAPI.Controllers.MeetupController">
+            <summary>
+            Meetup API Controller
+            </summary>
+        </member>
+        <member name="M:DotNetNorthDemoAPI.Controllers.MeetupController.GetRandomMeetup">
+            <summary>
+            Create me a random meetup
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetNorthDemoAPI.Controllers.MeetupController.GetNext">
+            <summary>
+            Genuinely, what's the next meetup?
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetNorthDemoAPI.Controllers.MeetupController.PostNextDonatePrize(System.String)">
+            <summary>
+            Please let me donate a prize for the next meetup
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetNorthDemoAPI.Controllers.MeetupController.PostNextSupplySustenance(DotNetNorthDemoAPI.Sustenance)">
+            <summary>
+            That next meetup, can I arrange the catering?
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DotNetNorthDemoAPI.Meetup">
+            <summary>
+            a Dot Net North Meetup
+            </summary>
+        </member>
+        <member name="P:DotNetNorthDemoAPI.Meetup.Date">
+            <summary>
+            Date and Time of the Meetup
+            </summary>
+        </member>
+        <member name="P:DotNetNorthDemoAPI.Meetup.Title">
+            <summary>
+            Title of the talk / presentation
+            </summary>
+        </member>
+        <member name="P:DotNetNorthDemoAPI.Meetup.Summary">
+            <summary>
+            A long description of the talk and speaker
+            </summary>
+        </member>
+        <member name="P:DotNetNorthDemoAPI.Meetup.Food">
+            <summary>
+            Refreshments on offer - food
+            </summary>
+        </member>
+        <member name="P:DotNetNorthDemoAPI.Meetup.Beverages">
+            <summary>
+            Refreshments on offer - drinks
+            </summary>
+        </member>
+        <member name="P:DotNetNorthDemoAPI.Meetup.Swag">
+            <summary>
+            I'm only coming if there's prizes
+            </summary>
+        </member>
+        <member name="T:DotNetNorthDemoAPI.Sustenance">
+            <summary>
+            Please tell us what you can offer to keep our audience fed and watered.
+            </summary>
+        </member>
+        <member name="P:DotNetNorthDemoAPI.Sustenance.Food">
+            <summary>
+            What food can you supply (is it pizza?)
+            </summary>
+        </member>
+        <member name="P:DotNetNorthDemoAPI.Sustenance.Beverages">
+            <summary>
+            Beverages you can supply. The more the merrier. Alcoholic, and Alcohol Free.
+            </summary>
+        </member>
+    </members>
+</doc>
